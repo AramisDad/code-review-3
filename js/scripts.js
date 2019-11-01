@@ -13,11 +13,19 @@ $(document).ready(function()  {
     }
     console.log(userRange);
 
+    forEach (var index = 0; index <= userRange; index++) {
+      if (userRange[index].includes(3)) {
+      userRange.pop(userRange[index]);
+      userRange.push("I'm sorry Dave, I'm afraid I can't do that.")
+      }
+    }
+    console.log(userRange);
     var beepBoop = function()  {
       if (!(numbers.includes(userInput))) {
         alert("Whoops! Please use numeric characters to enter an integer");
-      } else if (userRange.includes(three))  {
-        return userRange[index].replaceWith("I'm sorry Dave, I'm afraid I can't do that")
+      // } else if (userRange.includes(three))  {
+      //   userRange.pop(userRange[index]);
+      //   userRange.push ("I'm sorry Dave, I'm afraid I can't do that")
       } else  {
         return userRange;
       }
