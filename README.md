@@ -6,15 +6,12 @@
 
 ## Description
 
-_This is application will return a range of numbers from 0 to the user inputted number. If a number contains a 3 will have all of their digits replaced with "I'm sorry Dave, I'm afraid I can't do that." If a number does not contain a 3, numbers that contain a 2 will have all digits replaced with "BOOP!". If a number does not Numbers that conta{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is application will return a range of numbers from 0 to the user inputted number. If a number contains a 3 will have all of their digits replaced with "I'm sorry Dave, I'm afraid I can't do that." If numbers do not contain a 3, numbers that contain a 2 will have all digits replaced with "BOOP!". If numbers do not contain a 3 or a 2, numbers that contain a 1 will have all digits replaced with "BEEP!"._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone the repository onto your local machine from https://github.com/AramisDad/code-review-3 using terminal or the command line interpreting application of your choice_
+* _Open index.html with your browser to view and interact with the webpage_
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
