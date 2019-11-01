@@ -5,14 +5,22 @@ $(document).ready(function()  {
 
     var userInput = parseInt($("input#userInput").val());
     var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    var userRange = [];
 
-    var beepBoop = function(userInput)  {
+    for (var index = 0; index <= userInput; index++) {
+      userRange.push(index);
+    }
+    console.log(userRange);
+
+    var beepBoop = function()  {
       if (!(numbers.includes(userInput))) {
         alert("Whoops! Please use numeric characters to enter an integer");
+      } else  {
+        return userRange;
       }
     }
-
-    var result = beepBoop(userInput);
-    $("#result").text();
+    var result = beepBoop(userRange);
+    console.log(result);
+    $("#result").text(result);
   });
 });
