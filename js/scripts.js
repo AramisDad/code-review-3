@@ -6,34 +6,26 @@ $(document).ready(function()  {
     var userInput = parseInt($("input#userInput").val());
     var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
     var userRange = [];
-    var three = 3
+    var number = [];
 
     for (var index = 0; index <= userInput; index++) {
       userRange.push(index);
     }
 
-    for (var index = 0; index <= userInput; index++)  {
-      if (userRange.includes(3)) {
-      userRange.pop(userRange.includes(3));
-      userRange.push("I'm sorry Dave, I'm afraid I can't do that.")
-    } else {
-      return userRange[index];
-    };
+    userRange.forEach (function(threes)  {
+      userRange.splice(3, 1, "I'm sorry Dave, I'm afraid I can't do that.");
+    });
     console.log(userRange);
 
-  };
-  var beepBoop = function()  {
-    if (!(numbers.includes(userInput))) {
-      alert("Whoops! Please use numeric characters to enter an integer");
-      // } else if (userRange.includes(three))  {
-        //   userRange.pop(userRange[index]);
-        //   userRange.push ("I'm sorry Dave, I'm afraid I can't do that")
+    var beepBoop = function()  {
+      if (!(numbers.includes(3))) {
+        alert("Whoops! Please use numeric characters to enter an integer");
       } else  {
         return userRange;
       }
     }
-    var result = beepBoop(userRange);
-    console.log(result);
-    $("#result").text(result);
+    var result = (userRange);
+    console.log(userRange);
+    $("#result").text(userRange);
   });
 });
