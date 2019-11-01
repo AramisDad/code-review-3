@@ -13,7 +13,23 @@ _This is application will return a range of numbers from 0 to the user inputted 
 * _Clone the repository onto your local machine from https://github.com/AramisDad/code-review-3 using terminal or the command line interpreting application of your choice_
 * _Open index.html with your browser to view and interact with the webpage_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+## Specifications
+
+* _Spec: The program returns an error message when non-numbers are submitted in the input field.
+    Input: "one", "!", "+"
+    Output: "Whoops! Please enter an integer using numeric characters"_
+* _Spec: The program returns a range of numbers from 0 to the users inputted number.
+    Input: "4"
+    Output: "0, 1, 2, 3, 4"_
+* _Spec: The program returns a range of numbers from 0 to the users inputted number with all digits in numbers containing a "3" replaced with "I'm sorry Dave, I'm afraid I can't do that".
+    Input: "4"
+    Output: "0, 1, 2, I'm sorry Dave, I'm afraid I can't do that, 4"_
+* _Spec: The program returns a range of numbers from 0 to the users inputted number with all digits in numbers containing a "2" and contain no "3" are replaced with "BOOP!".
+    Input: "4"
+    Output: "0, 1, BOOP!, I'm sorry Dave, I'm afraid I can't do that, 4"_
+* _Spec: The program returns a range of numbers from 0 to the users inputted number with all digits in numbers containing a "1" and contain no "3" or "2" are replaced with "BOOP!".
+    Input: "4"
+    Output: "0, BEEP!, BOOP!, I'm sorry Dave, I'm afraid I can't do that, 4"_
 
 ## Known Bugs
 
