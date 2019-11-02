@@ -18,14 +18,14 @@ $(document).ready(function()  {
     console.log(userRange);
 
     var beepBoop = function()  {
-      if (!(numbers.includes(3))) {
+      if (!(numbers.includes(userInput))) {
         alert("Whoops! Please use numeric characters to enter an integer");
       } else  {
         return userRange;
       }
     }
-    var result = (userRange);
+    var result = beepBoop(userRange);
     console.log(userRange);
-    $("#result").text(userRange);
+    $("#result").text(result);
   });
 });
